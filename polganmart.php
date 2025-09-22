@@ -21,3 +21,12 @@ for ($i = 0; $i < rand(1,5
     $grandtotal += $total[$i];
 }
 
+// Commit 3 - Perhitungan total
+foreach ($beli as $key => $value) {
+    echo "Nama Barang : " . $value . "<br>";
+    echo "Harga Barang : " . $harga_barang[$key] . "<br>";
+    echo "Jumlah Beli : " . $jumlah[$key] . "<br>";
+    echo "Total Harga : " . $total[$key] . "<br><br>";
+}
+
+
