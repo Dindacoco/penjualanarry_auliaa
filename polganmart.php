@@ -29,4 +29,7 @@ foreach ($beli as $key => $value) {
     echo "Total Harga : " . $total[$key] . "<br><br>";
 }
 
-
+// Commit 4 - Output akhir
+echo "-----------------------------<br>";
+echo "Total Belanja : " . $grandtotal;
+?>
